@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+
+header .logo {
+    position: relative;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin-left: 140px;
+    color: yellow;
+    
+}
+
+header .navbar a {
+    text-align: center;
+    margin-right: 70px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+header .navbar a:hover {
+    color:yellow;
+    
+}
+
+section {
+  
+    height: 90vh;
+    background: url('car1.webp')no-repeat center center/cover;
+    color: white;
+}
+
+.maint h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 2.6rem;
+}
+
+.maint p {
+    padding-top: 5px;
+    color:yellow;
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+   
+}
+section .future{
+    position: absolute;
+    color:white;
+    margin-left: 50px;
+   
+}
+
+.future h2{
+    color:yellow;
+    font-size: 1.8rem;
+    margin-top: 210px;
+    margin-bottom: 10px;
+  
+}
+.future p{
+font-family: 'Edu SA Beginner', cursive;
+}
+
+footer .list ul{
+    display:flex;
+justify-content: space-between;
+}
+.list ul li{
+    list-style: none;
+    padding:20px 103px;
+    background-color: rgb(218, 217, 217);
+    border:1px solid rgb(195, 194, 194);
+    cursor: pointer;
+}
+.list ul li a{
+    text-decoration: none;
+font-size: 1.4rem;
+color:black;
+font-weight: 600;
+}
+.sec1{
+    display: flex;
+justify-content: center;
+padding:40px;
+}
+
+.sec1 .pic, .pic2 , .pic3, .pic4 , .pic5{
+    padding-left: 50px;
+}
+.sec1 h2{
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.2rem;
+}
+section3 h2{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Pacifico', cursive;
+    margin:20px 10px;
+    color: rgb(73, 99, 21);
+}
+section3 .foot ul{
+    display: flex;
+    justify-content:center;
+    margin-top:40px;
+    margin-bottom:50px;
+   
+}
+section3 .foot ul li{
+    
+margin-left: 10px;
+    list-style-type: none;
+    font-size: 1.5rem;
+    border:2px solid rgb(150, 148, 148);
+    padding:30px;
+    cursor:pointer;
+}
+section4 .slim{
+    background-color: rgb(226, 224, 224);
+    width:100%;
+    text-align: center;
+padding-top: 20px;
+padding-bottom: 0px;
+    margin-bottom: 0;
+}
+ .slim p{
+    margin-top:10px;
+ }
